@@ -1,3 +1,4 @@
+```
 import sqlite3                              
 flag = 0                                        
 try:                                                
@@ -11,6 +12,7 @@ except sqlite3.Error as error:
 #Closing database Connection                                       
 if flag:                                        
     conn.close()                                    
-    print('Connection closed')                                      
+    print('Connection closed')  
+```
     
 ![](images/connection.png)
