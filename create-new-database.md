@@ -8,7 +8,7 @@ try:
 except sqlite3.Error as error:                                      
     print('Error occured - ', error)                                    
                                                 
-# Closing database Connection                                       
+#Closing database Connection                                       
 if flag:                                        
     conn.close()                                    
     print('Connection closed')                                      
